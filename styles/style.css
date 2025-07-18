@@ -84,10 +84,11 @@ ol {
 }
 
 .content__list-container {
+  display: grid;
   position: relative;
-  max-height: 298px;
   overflow-y: auto;
   max-width: 399px;
+  block-size: 298px;
 }
 
 .result__video-container {
@@ -315,7 +316,7 @@ ol {
 }
 
 .button:active {
-  color: #545050;
+  background-color: #545050;
 }
 
 .button:focus {
@@ -333,7 +334,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: transparent;
+  background-color: #545050;
 }
 
 .content__card-link:active {
